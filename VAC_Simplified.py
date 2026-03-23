@@ -6,9 +6,11 @@ from datetime import datetime
 
 VRCFURY_REPO_URL = "https://vcc.vrcfury.com/"
 LILTOONSHADER_REPO_URL = "https://lilxyzw.github.io/vpm-repos/vpm.json"
+POIYOMISHADER_REPO_URL = "https://poiyomi.github.io/vpm/index.json"
 MODULARAVATAR_REPO_URL = "https://vpm.nadena.dev/vpm.json"
 AAOAVATAROPTIMIZER_REPO_URL = "https://vpm.anatawa12.com/vpm.json"
 D4RKAVATAROPTIMIZER_REPO_URL = "https://d4rkc0d3r.github.io/vpm-repos/main.json"
+AVATARCOMPRESSOR_REPO_URL = "https://vpm.limitex.dev/index.json"
 GOGOLOCO_REPO_URL = "https://Spokeek.github.io/goloco/index.json"
 
 
@@ -121,6 +123,9 @@ subprocess.run(f"vpm add repo {VRCFURY_REPO_URL}", check=True)
 print("Adding lilToon shader repo...")
 subprocess.run(f"vpm add repo {LILTOONSHADER_REPO_URL}", check=True)
 
+print("Adding Poiyomi Toon Shader repo...")
+subprocess.run(f"vpm add repo {POIYOMISHADER_REPO_URL}", check=True)
+
 print("Adding Modular Avatar repo...")
 subprocess.run(f"vpm add repo {MODULARAVATAR_REPO_URL}", check=True)
 
@@ -129,6 +134,9 @@ subprocess.run(f"vpm add repo {AAOAVATAROPTIMIZER_REPO_URL}", check=True)
 
 print("Adding d4rkAvatarOptimizer repo...")
 subprocess.run(f"vpm add repo {D4RKAVATAROPTIMIZER_REPO_URL}", check=True)
+
+print("Adding Avatar Compressor repo...")
+subprocess.run(f"vpm add repo {AVATARCOMPRESSOR_REPO_URL}", check=True)
 
 print("Adding GoGo Loco repo...")
 subprocess.run(f"vpm add repo {GOGOLOCO_REPO_URL}", check=True)
@@ -173,6 +181,9 @@ subprocess.run(f"vpm add package com.vrcfury.vrcfury", check=True)
 print("Adding package: lilToon...")
 subprocess.run(f"vpm add package jp.lilxyzw.liltoon", check=True)
 
+print("Adding package: Poiyomi Toon Shader...")
+subprocess.run(f"vpm add package com.poiyomi.toon", check=True)
+
 print("Adding package: Modular Avatar...")
 subprocess.run(f"vpm add package nadena.dev.modular-avatar", check=True)
 
@@ -181,6 +192,9 @@ subprocess.run(f"vpm add package com.anatawa12.avatar-optimizer", check=True)
 
 print("Adding package: d4rkAvatarOptimizer...")
 subprocess.run(f"vpm add package d4rkpl4y3r.d4rkavataroptimizer", check=True)
+
+print("Adding package: Avatar Compressor...")
+subprocess.run(f"vpm add package dev.limitex.avatar-compressor", check=True)
 
 print("Adding package: GoGoLoco...")
 subprocess.run(f"vpm add package gogoloco", check=True)

@@ -3,10 +3,12 @@ Tool which installs dependencies (ALCOM, .NET, VPM, Unity Hub, Unity, ...) and p
 - VRChat SDK Avatars
 - [VRCFury](https://vrcfury.com/getting-started) - general-purpose tool (connect stuff, manage Gestures, add Toggles, SPS, ...)
 - lilToon shader - shader which is depended on by many assets
+- Poiyomi Toon Shader - shader which is depended on by many assets
 - [Modular Avatar](https://modular-avatar.nadena.dev/docs/tutorials/clothing) - attach clothing to avatar
 - GoGo Loco - complex avatar positioning in-game without needing full body tracking
 - [AAO: Avatar Optimizer](https://vpm.anatawa12.com/avatar-optimizer/en/docs/tutorial/basic-usage/) - avatar optimizer
 - [d4rkAvatarOptimizer](https://github.com/d4rkc0d3r/d4rkAvatarOptimizer/blob/main/README.md#how-to-use) - avatar optimizer
+- [Avatar Compressor](https://lac.limitex.dev/en/docs/components/texture-compressor/) - avatar texture compressor
 - Gesture Manager - check results of hand gestures in editor (Quality of Life)
 
 
